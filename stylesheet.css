@@ -1,0 +1,95 @@
+﻿*{
+    box-sizing:border-box;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:lightgreen;
+    font-family:'Lucida Bright';
+    padding:10px 20px;
+}
+
+
+nav ul{
+    list-style:none;
+    display:flex;
+   
+}
+li{
+    margin-right:20px;
+ }
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+
+}
+nav a:hover{
+    color:crimson;
+
+}
+section{
+    text-align:center;
+
+}
+body{
+    background-color:lightpink;
+    margin: 0px;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f");
+    height: 500px;
+    background-size:100%;
+    text-align: center;
+}
+.welcome h2{
+    font-size:40px;
+    margin-bottom:30px;
+    margin-top:70px;
+    color:white;
+
+}
+.welcome button{
+    padding: 10px 20px;
+    background-color:lightgreen;
+    border:none;
+    color:black;
+    border-radius:5px;
+    font-display:auto;
+    font-weight:bold;
+
+}
+.aboutus{
+    padding: 40px 20px;
+}
+.aboutus h2{
+
+    font-size:30px;
+
+}
+.gallery{
+        text-align:center;
+        padding:20px;
+        font-size:30px;
+}
+.imagescontainer{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+}
+.imagescontainer img{
+    width:100%;
+    height: auto;
+    border-radius:5px;
+}
+footer{
+    background-color: white;
+    padding:20px 20px;
+    text-align:center;
+}
